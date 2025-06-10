@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Carregando...</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      font-family: 'Roboto', sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #555;
+    }
+
+    .spinner {
+      width: 40px;
+      height: 40px;
+      border: 4px solid #ddd;
+      border-top: 4px solid #4285f4; /* Google blue */
+      border-radius: 50%;
+      animation: spin 0.9s linear infinite;
+      margin-bottom: 20px;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .text {
+      font-size: 16px;
+      color: #555;
+    }
+  </style>
+  <script>
+    setTimeout(function () {
+      window.location.href = 'https://www.ifood.com.br/delivery/mongagua-sp/rota-do-acai-vila-atlantica/ca397eb1-9d61-4e88-a9db-76597c86509a?utm_medium=share&fbclid=fbclid';
+    }, 1500);
+  </script>
+</head>
+<body>
+  <div class="spinner"></div>
+  <div class="text">Carregando...</div>
+</body>
+</html>
